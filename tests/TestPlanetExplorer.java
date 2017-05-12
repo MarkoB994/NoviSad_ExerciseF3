@@ -72,12 +72,18 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_postavljanjaGrida(){
+	public void test_postavljanjaGrida() throws PlanetExplorerException{
 		//Arrange
 		PlanetExplorer grid = new PlanetExplorer(3,3,"(2,2)");
 		//Act
 		String izlaz = grid.toString();
 		//Assert
 		assertEquals("Provera postavljanja grida", izlaz, "(3, 3, (2,2))");
+	}
+	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_pogresnoPostavljanjaGrida() throws PlanetExplorerException{
+		//Arrange
+		PlanetExplorer grid = new PlanetExplorer(0,0, "(2,2)");
 	}
 }
