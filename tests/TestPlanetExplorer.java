@@ -11,6 +11,6 @@ public class TestPlanetExplorer {
 		//Act
 		String izlaz = poz.toString();
 		//Assert
-		assertEquals("Provera startne pozicije", izlaz, "(0, 0, N");
+		assertEquals("Provera startne pozicije", izlaz, "(0, 0, N)");
 	}
 }
