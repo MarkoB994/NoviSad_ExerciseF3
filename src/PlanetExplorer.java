@@ -44,6 +44,7 @@ public class PlanetExplorer {
 		
 		for(int i = 0; i < nizKomandi.length; i++){
 			String komanda = String.valueOf(nizKomandi[i]);
+			System.out.println(komanda);
 			pozicija.pomeranje(komanda);
 		}
 		
