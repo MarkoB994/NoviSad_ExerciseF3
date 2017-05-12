@@ -164,3 +164,8 @@ RefactoringAction 1494615162789 TestPlanetExplorer.java RENAME test_pog=>void te
 RefactoringAction 1494615164359 TestPlanetExplorer.java RENAME test_pogresnoPostavljanja=>void test_pogresnoPostavljanjaGrida FIELD
 RefactoringAction 1494615166393 TestPlanetExplorer.java RENAME test_pogresnoPostavljanjaGrida=>void test_pogresnoPostavljanjaGrida() METHOD
 EditAction 1494615222189 TestPlanetExplorer.java 2198 8 31 6
+UnitTestCaseAction 1494615228393 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615228395 TestPlanetExplorer.java OK
+RefactoringAction 1494615364952 PlanetExplorer.java ADD int getGridX() METHOD
+RefactoringAction 1494615364953 PlanetExplorer.java ADD int getGridY() METHOD
+EditAction 1494615366423 PlanetExplorer.java 1738 5 9 0

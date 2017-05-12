@@ -47,4 +47,14 @@ public class PlanetExplorer {
 	public String toString(){
 		return "(" + gridX + ", " + gridY + ", " + prepreke + ")";
 	}
+
+	public int getGridX() {
+		return gridX;
+	}
+
+	public int getGridY() {
+		return gridY;
+	}
+	
+	
 }
