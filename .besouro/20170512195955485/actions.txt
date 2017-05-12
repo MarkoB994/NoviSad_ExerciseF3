@@ -111,3 +111,4 @@ RefactoringAction 1494614186188 TestPlanetExplorer.java RENAME test_okretanjauS(
 RefactoringAction 1494614187759 TestPlanetExplorer.java RENAME test_okretanja()=>void test_okretanjaUsme() METHOD
 RefactoringAction 1494614190299 TestPlanetExplorer.java RENAME test_okretanjaUsme()=>void test_okretanjaUsmeruKazalje() METHOD
 EditAction 1494614196733 TestPlanetExplorer.java 1090 4 15 3
+EditAction 1494614214519 TestPlanetExplorer.java 1112 4 16 3

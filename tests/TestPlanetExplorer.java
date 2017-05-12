@@ -39,9 +39,10 @@ public class TestPlanetExplorer {
 		Pozicija poz = new Pozicija();
 		poz.pomeranje("r");
 		poz.pomeranje("r");
+		poz.pomeranje("r");
 		//Act
 		String izlaz = poz.trenutnaPozicija();
 		//Assert
-		assertEquals("Provera startne pozicije", izlaz, "(0, 0, S)");
+		assertEquals("Provera startne pozicije", izlaz, "(0, 0, W)");
 	}
 }
