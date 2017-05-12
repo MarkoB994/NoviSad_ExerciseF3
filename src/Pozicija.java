@@ -4,6 +4,10 @@ public class Pozicija {
 	private int y = 0;
 	private String smer = "N";
 	
+	public Pozicija(){
+		
+	}
+	
 	public Pozicija(int x, int y, String smer){
 		this.x = x;
 		this.y = y;
