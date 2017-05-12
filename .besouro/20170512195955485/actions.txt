@@ -1,0 +1,19 @@
+FileOpenedAction 1494611996095 PlanetExplorer.java 1245 2 1 0
+FileOpenedAction 1494612064384 PlanetExplorerException.java 61 0 0 0
+FileOpenedAction 1494612072391 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1494612165200 Pozicija.java ADD Pozicija.java CLASS
+FileOpenedAction 1494612165760 Pozicija.java 32 0 0 0
+RefactoringAction 1494612176840 Pozicija.java ADD int x FIELD
+RefactoringAction 1494612178350 Pozicija.java RENAME x=>int xKoo FIELD
+RefactoringAction 1494612179860 Pozicija.java RENAME xKoo=>int xKoordinata FIELD
+RefactoringAction 1494612188392 Pozicija.java ADD int y FIELD
+RefactoringAction 1494612195907 Pozicija.java RENAME xKoordinata=>int x FIELD
+RefactoringAction 1494612206503 Pozicija.java ADD Pozicija() METHOD
+RefactoringAction 1494612213546 Pozicija.java RENAME Pozicija()=>Pozicija(int) METHOD
+RefactoringAction 1494612216628 Pozicija.java RENAME Pozicija(int)=>Pozicija(int, int) METHOD
+RefactoringAction 1494612327607 Pozicija.java RENAME Pozicija(int, int)=>Pozicija(int, int, String) METHOD
+RefactoringAction 1494612337134 Pozicija.java RENAME x=>int posx FIELD
+RefactoringAction 1494612338146 Pozicija.java RENAME posx=>int pos_x FIELD
+RefactoringAction 1494612346667 Pozicija.java REMOVE pos_x FIELD
+RefactoringAction 1494612348678 Pozicija.java ADD int x FIELD
+EditAction 1494612349604 Pozicija.java 158 1 2 0
