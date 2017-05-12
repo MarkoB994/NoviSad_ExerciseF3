@@ -28,7 +28,14 @@ public class Pozicija {
 	}
 	
 	public void obrnutoSmeruKazaljke(){
-		
+		if(smer == "N")
+			smer = "W";
+		else if(smer == "W")
+			smer = "S";
+		else if(smer == "S")
+			smer = "E";
+		else
+			smer = "N";
 	}
 	
 	public void uSmeruKazaljke(){

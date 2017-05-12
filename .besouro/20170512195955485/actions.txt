@@ -88,3 +88,6 @@ RefactoringAction 1494613744072 TestPlanetExplorer.java RENAME test_promene=>voi
 RefactoringAction 1494613745611 TestPlanetExplorer.java RENAME test_Po=>void test_Pomeranja FIELD
 RefactoringAction 1494613746643 TestPlanetExplorer.java RENAME test_Pomeranja=>void test_Pomeranja() METHOD
 EditAction 1494613830372 TestPlanetExplorer.java 496 2 5 1
+UnitTestCaseAction 1494613837336 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494613837338 TestPlanetExplorer.java OK
+EditAction 1494613971038 Pozicija.java 1168 12 10 0
