@@ -134,3 +134,14 @@ RefactoringAction 1494614625299 PlanetExplorer.java ADD Pozicija poz FIELD
 RefactoringAction 1494614627830 PlanetExplorer.java RENAME poz=>Pozicija pozici FIELD
 RefactoringAction 1494614629355 PlanetExplorer.java RENAME pozici=>Pozicija pozicija FIELD
 EditAction 1494614648438 PlanetExplorer.java 1375 2 4 0
+RefactoringAction 1494614724876 PlanetExplorer.java ADD String toS FIELD
+RefactoringAction 1494614726412 PlanetExplorer.java RENAME toS=>String toString FIELD
+RefactoringAction 1494614727449 PlanetExplorer.java RENAME toString=>String toString() METHOD
+RefactoringAction 1494614752213 PlanetExplorer.java ADD String prepreke FIELD
+CompilationAction 1494614752692 PlanetExplorer.java
+CompilationAction 1494614752693 PlanetExplorer.java
+CompilationAction 1494614765144 PlanetExplorer.java
+CompilationAction 1494614765148 PlanetExplorer.java
+CompilationAction 1494614765445 PlanetExplorer.java
+CompilationAction 1494614765465 PlanetExplorer.java
+EditAction 1494614823568 PlanetExplorer.java 1521 3 6 0

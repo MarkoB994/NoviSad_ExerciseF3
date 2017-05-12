@@ -6,6 +6,7 @@
 public class PlanetExplorer {
 	private int gridX;
 	private int gridY;
+	private String prepreke;
 	private Pozicija pozicija;
 	
 	
@@ -19,6 +20,8 @@ public class PlanetExplorer {
 	 */
 		gridX = x;
 		gridY = y;
+		prepreke = obstacles;
+		
 		pozicija = new Pozicija();
 		
 	}
@@ -36,5 +39,9 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+	
+	public String toString(){
+		return "(" + gridX + ", " + gridY + ", " + prepreke + ")";
 	}
 }
