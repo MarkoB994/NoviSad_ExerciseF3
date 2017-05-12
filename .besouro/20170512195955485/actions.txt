@@ -115,3 +115,8 @@ EditAction 1494614214519 TestPlanetExplorer.java 1112 4 16 3
 UnitTestCaseAction 1494614222117 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494614222119 TestPlanetExplorer.java OK
 EditAction 1494614295597 Pozicija.java 1410 12 12 0
+RefactoringAction 1494614307643 TestPlanetExplorer.java ADD void test_okretanjaUsmeruKazalje()/2 METHOD
+RefactoringAction 1494614314674 TestPlanetExplorer.java RENAME test_okretanjaUsmeruKazalje()/2=>void test_pomeranjaUn() METHOD
+RefactoringAction 1494614315720 TestPlanetExplorer.java RENAME test_pomeranjaUn()=>void test_pomeranjaU() METHOD
+RefactoringAction 1494614318249 TestPlanetExplorer.java RENAME test_pomeranjaU()=>void test_pomeranjaUnapred() METHOD
+EditAction 1494614341581 TestPlanetExplorer.java 1428 5 22 4

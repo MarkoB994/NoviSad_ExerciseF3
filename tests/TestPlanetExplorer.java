@@ -45,4 +45,17 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals("Provera startne pozicije", izlaz, "(0, 0, W)");
 	}
+	
+	@Test
+	public void test_pomeranjaUnapred() throws PlanetExplorerException{
+		//Arrange
+		Pozicija poz = new Pozicija();
+		poz.pomeranje("f");
+		poz.pomeranje("f");
+		poz.pomeranje("f");
+		//Act
+		String izlaz = poz.trenutnaPozicija();
+		//Assert
+		assertEquals("Provera startne pozicije", izlaz, "(0, 3, N)");
+	}
 }
