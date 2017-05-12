@@ -65,3 +65,4 @@ RefactoringAction 1494613538542 PlanetExplorerException.java ADD PlanetExplorerE
 RefactoringAction 1494613553636 PlanetExplorerException.java ADD PlanetExplorerException()/2 METHOD
 RefactoringAction 1494613557670 PlanetExplorerException.java RENAME PlanetExplorerException()/2=>PlanetExplorerException(String) METHOD
 EditAction 1494613566800 PlanetExplorerException.java 171 2 1 0
+EditAction 1494613594192 Pozicija.java 859 8 9 0

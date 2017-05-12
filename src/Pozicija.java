@@ -14,6 +14,21 @@ public class Pozicija {
 		this.smer = smer;
 	}
 	
+	public void pomeranje(String smer) throws PlanetExplorerException{
+		if(smer == "l")
+			obrnutoSmeruKazaljke();
+		else if(smer == "r")
+			uSmeruKazaljke();
+		else if(smer == "f")
+			pomeranjeNapred();
+		else if(smer == "b")
+			pomeranjeNazad();
+		else
+			throw new PlanetExplorerException("Uneta pogresna komanda");
+			
+			
+	}
+	
 	public String trenutnaPozicija(){
 		return "(" + x + ", " + y + ", " + smer + ")"; 
 	}
