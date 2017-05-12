@@ -91,3 +91,11 @@ EditAction 1494613830372 TestPlanetExplorer.java 496 2 5 1
 UnitTestCaseAction 1494613837336 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494613837338 TestPlanetExplorer.java OK
 EditAction 1494613971038 Pozicija.java 1168 12 10 0
+RefactoringAction 1494613992797 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1494613995850 TestPlanetExplorer.java RENAME test=>void test_okretanja FIELD
+RefactoringAction 1494613998386 TestPlanetExplorer.java RENAME test_okretanja=>void test_okretanjaObr FIELD
+RefactoringAction 1494614000456 TestPlanetExplorer.java RENAME test_okretanjaObr=>void test_okretanjaObrnutoU FIELD
+RefactoringAction 1494614002483 TestPlanetExplorer.java RENAME test_okretanjaObrnutoU=>void test_okretanjaObrnutoUs FIELD
+RefactoringAction 1494614003508 TestPlanetExplorer.java RENAME test_okretanjaObrnutoUs=>void test_okretanjaObrnuto FIELD
+RefactoringAction 1494614006534 TestPlanetExplorer.java RENAME test_okretanjaObrnuto=>void test_okretanjaObrnuto() METHOD
+EditAction 1494614111311 TestPlanetExplorer.java 790 3 10 2

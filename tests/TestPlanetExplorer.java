@@ -20,4 +20,16 @@ public class TestPlanetExplorer {
 		Pozicija poz = new Pozicija();
 		poz.pomeranje("Z");
 	}
+	
+	@Test
+	public void test_okretanjaObrnuto() throws PlanetExplorerException{
+		//Arrange
+		Pozicija poz = new Pozicija();
+		poz.pomeranje("l");
+		poz.pomeranje("l");
+		//Act
+		String izlaz = poz.trenutnaPozicija();
+		//Assert
+		assertEquals("Provera startne pozicije", izlaz, "(0, 0, E)");
+	}
 }
