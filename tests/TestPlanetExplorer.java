@@ -7,7 +7,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_pocetnaPozicija() {
 		//Arrenge
-		Pozicija poz = new Pozicija(0,0,"N");
+		Pozicija poz = new Pozicija();
 		//Act
 		String izlaz = poz.trenutnaPozicija();
 		//Assert
