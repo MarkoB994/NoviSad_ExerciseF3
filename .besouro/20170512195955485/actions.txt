@@ -17,3 +17,15 @@ RefactoringAction 1494612338146 Pozicija.java RENAME posx=>int pos_x FIELD
 RefactoringAction 1494612346667 Pozicija.java REMOVE pos_x FIELD
 RefactoringAction 1494612348678 Pozicija.java ADD int x FIELD
 EditAction 1494612349604 Pozicija.java 158 1 2 0
+RefactoringAction 1494612440889 Pozicija.java ADD String trenutna FIELD
+RefactoringAction 1494612443909 Pozicija.java RENAME trenutna=>String trenutnaPozicija FIELD
+RefactoringAction 1494612444931 Pozicija.java RENAME trenutnaPozicija=>String trenutnaPozicija() METHOD
+RefactoringAction 1494612477565 Pozicija.java ADD int getX() METHOD
+RefactoringAction 1494612477566 Pozicija.java ADD int getY() METHOD
+RefactoringAction 1494612477568 Pozicija.java ADD void setX(int) METHOD
+RefactoringAction 1494612477569 Pozicija.java ADD void setY(int) METHOD
+RefactoringAction 1494612502201 Pozicija.java ADD String d FIELD
+RefactoringAction 1494612503224 Pozicija.java REMOVE d FIELD
+RefactoringAction 1494612507745 Pozicija.java ADD String s FIELD
+RefactoringAction 1494612508794 Pozicija.java RENAME s=>String smer FIELD
+EditAction 1494612611461 Pozicija.java 462 6 8 0
