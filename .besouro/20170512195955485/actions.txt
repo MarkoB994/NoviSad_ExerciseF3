@@ -29,3 +29,6 @@ RefactoringAction 1494612503224 Pozicija.java REMOVE d FIELD
 RefactoringAction 1494612507745 Pozicija.java ADD String s FIELD
 RefactoringAction 1494612508794 Pozicija.java RENAME s=>String smer FIELD
 EditAction 1494612611461 Pozicija.java 462 6 8 0
+RefactoringAction 1494612644278 Pozicija.java RENAME Pozicija(int, int, String)=>Pozicija(int) METHOD
+RefactoringAction 1494612650837 Pozicija.java RENAME Pozicija(int)=>Pozicija(int, int, String) METHOD
+EditAction 1494612651645 Pozicija.java 462 6 8 0
