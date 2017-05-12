@@ -105,3 +105,9 @@ EditAction 1494614137844 TestPlanetExplorer.java 790 3 10 2
 UnitTestCaseAction 1494614143366 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494614143368 TestPlanetExplorer.java OK
 EditAction 1494614170135 Pozicija.java 1303 12 11 0
+RefactoringAction 1494614181080 TestPlanetExplorer.java ADD void test_okretanjaObrnuto()/2 METHOD
+RefactoringAction 1494614185131 TestPlanetExplorer.java RENAME test_okretanjaObrnuto()/2=>void test_okretanjauS() METHOD
+RefactoringAction 1494614186188 TestPlanetExplorer.java RENAME test_okretanjauS()=>void test_okretanja() METHOD
+RefactoringAction 1494614187759 TestPlanetExplorer.java RENAME test_okretanja()=>void test_okretanjaUsme() METHOD
+RefactoringAction 1494614190299 TestPlanetExplorer.java RENAME test_okretanjaUsme()=>void test_okretanjaUsmeruKazalje() METHOD
+EditAction 1494614196733 TestPlanetExplorer.java 1090 4 15 3

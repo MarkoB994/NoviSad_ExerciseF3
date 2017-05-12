@@ -32,4 +32,16 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals("Provera startne pozicije", izlaz, "(0, 0, S)");
 	}
+	
+	@Test
+	public void test_okretanjaUsmeruKazalje() throws PlanetExplorerException{
+		//Arrange
+		Pozicija poz = new Pozicija();
+		poz.pomeranje("r");
+		poz.pomeranje("r");
+		//Act
+		String izlaz = poz.trenutnaPozicija();
+		//Assert
+		assertEquals("Provera startne pozicije", izlaz, "(0, 0, S)");
+	}
 }
