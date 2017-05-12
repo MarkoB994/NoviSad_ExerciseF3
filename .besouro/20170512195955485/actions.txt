@@ -151,3 +151,6 @@ RefactoringAction 1494614847099 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1494614848639 TestPlanetExplorer.java RENAME test_postavljanja=>void test_postavljanjaGrida FIELD
 RefactoringAction 1494614849670 TestPlanetExplorer.java RENAME test_postavljanjaGrida=>void test_postavljanjaGrida() METHOD
 EditAction 1494614978609 TestPlanetExplorer.java 1965 7 30 6
+UnitTestCaseAction 1494614999491 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614999493 TestPlanetExplorer.java OK
+EditAction 1494615115183 PlanetExplorer.java 1644 3 7 0
