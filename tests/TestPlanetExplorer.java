@@ -86,4 +86,15 @@ public class TestPlanetExplorer {
 		//Arrange
 		PlanetExplorer grid = new PlanetExplorer(0,0, "(2,2)");
 	}
+	
+	@Test
+	public void test_prosledjivanjaReciNaredbe() throws PlanetExplorerException{
+		//Arrange
+		PlanetExplorer grid = new PlanetExplorer(4,4, "(2,2)");
+		grid.executeCommand("fff");
+		//Act
+		String izlaz = grid.getPozicija().trenutnaPozicija();
+		//Assert
+		assertEquals("Provera startne pozicije", izlaz, "(0, 3, N)");
+	}
 }

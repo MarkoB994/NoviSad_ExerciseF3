@@ -178,3 +178,4 @@ RefactoringAction 1494615708024 TestPlanetExplorer.java RENAME test_prosledjivan
 RefactoringAction 1494615711064 TestPlanetExplorer.java RENAME test_prosledjivanjaReciNaredbe=>void test_prosledjivanjaReciNaredbe() METHOD
 RefactoringAction 1494615830124 PlanetExplorer.java ADD Pozicija getPozicija() METHOD
 EditAction 1494615832334 PlanetExplorer.java 2006 6 12 0
+EditAction 1494615874384 TestPlanetExplorer.java 2527 9 35 7
