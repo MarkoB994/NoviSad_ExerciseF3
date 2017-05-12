@@ -24,10 +24,25 @@ public class Pozicija {
 		else if(smer == "b")
 			pomeranjeNazad();
 		else
-			throw new PlanetExplorerException("Uneta pogresna komanda");
-			
-			
+			throw new PlanetExplorerException("Uneta pogresna komanda");		
 	}
+	
+	public void obrnutoSmeruKazaljke(){
+		
+	}
+	
+	public void uSmeruKazaljke(){
+		
+	}
+	
+	public void pomeranjeNapred(){
+		
+	}
+	
+	public void pomeranjeNazad(){
+		
+	}
+	
 	
 	public String trenutnaPozicija(){
 		return "(" + x + ", " + y + ", " + smer + ")"; 

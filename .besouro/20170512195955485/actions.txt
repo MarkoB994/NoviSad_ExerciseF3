@@ -66,3 +66,17 @@ RefactoringAction 1494613553636 PlanetExplorerException.java ADD PlanetExplorerE
 RefactoringAction 1494613557670 PlanetExplorerException.java RENAME PlanetExplorerException()/2=>PlanetExplorerException(String) METHOD
 EditAction 1494613566800 PlanetExplorerException.java 171 2 1 0
 EditAction 1494613594192 Pozicija.java 859 8 9 0
+CompilationAction 1494613597371 Pozicija.java
+CompilationAction 1494613597372 Pozicija.java
+CompilationAction 1494613597373 Pozicija.java
+CompilationAction 1494613597374 Pozicija.java
+RefactoringAction 1494613614017 Pozicija.java ADD void o FIELD
+RefactoringAction 1494613616057 Pozicija.java RENAME o=>void obrnuto FIELD
+RefactoringAction 1494613618082 Pozicija.java RENAME obrnuto=>void obrnutoSmeruK FIELD
+RefactoringAction 1494613620613 Pozicija.java RENAME obrnutoSmeruK=>void obrnutoSmeruKazaljke FIELD
+RefactoringAction 1494613622136 Pozicija.java RENAME obrnutoSmeruKazaljke=>void obrnutoSmeruKazaljke() METHOD
+RefactoringAction 1494613634230 Pozicija.java ADD void uSmeruKazaljke FIELD
+RefactoringAction 1494613635256 Pozicija.java RENAME uSmeruKazaljke=>void uSmeruKazaljke() METHOD
+RefactoringAction 1494613646379 Pozicija.java ADD void pomeranjeNapred() METHOD
+RefactoringAction 1494613668558 Pozicija.java ADD void pomeranjeNazad() METHOD
+EditAction 1494613670773 Pozicija.java 1033 12 9 0
