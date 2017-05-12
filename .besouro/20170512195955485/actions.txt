@@ -145,3 +145,9 @@ CompilationAction 1494614765148 PlanetExplorer.java
 CompilationAction 1494614765445 PlanetExplorer.java
 CompilationAction 1494614765465 PlanetExplorer.java
 EditAction 1494614823568 PlanetExplorer.java 1521 3 6 0
+RefactoringAction 1494614843013 TestPlanetExplorer.java ADD void tet FIELD
+RefactoringAction 1494614844545 TestPlanetExplorer.java RENAME tet=>void test_ FIELD
+RefactoringAction 1494614847099 TestPlanetExplorer.java RENAME test_=>void test_postavljanja FIELD
+RefactoringAction 1494614848639 TestPlanetExplorer.java RENAME test_postavljanja=>void test_postavljanjaGrida FIELD
+RefactoringAction 1494614849670 TestPlanetExplorer.java RENAME test_postavljanjaGrida=>void test_postavljanjaGrida() METHOD
+EditAction 1494614978609 TestPlanetExplorer.java 1965 7 30 6

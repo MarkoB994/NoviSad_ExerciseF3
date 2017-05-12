@@ -70,4 +70,14 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals("Provera startne pozicije", izlaz, "(0, -2, N)");
 	}
+	
+	@Test
+	public void test_postavljanjaGrida(){
+		//Arrange
+		PlanetExplorer grid = new PlanetExplorer(3,3,"(2,2)");
+		//Act
+		String izlaz = grid.toString();
+		//Assert
+		assertEquals("Provera postavljanja grida", izlaz, "(3, 3, (2,2))");
+	}
 }
