@@ -102,3 +102,6 @@ EditAction 1494614111311 TestPlanetExplorer.java 790 3 10 2
 UnitTestCaseAction 1494614117076 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494614117079 TestPlanetExplorer.java FAIL
 EditAction 1494614137844 TestPlanetExplorer.java 790 3 10 2
+UnitTestCaseAction 1494614143366 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614143368 TestPlanetExplorer.java OK
+EditAction 1494614170135 Pozicija.java 1303 12 11 0

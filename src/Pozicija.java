@@ -39,7 +39,14 @@ public class Pozicija {
 	}
 	
 	public void uSmeruKazaljke(){
-		
+		if(smer == "N")
+			smer = "E";
+		else if(smer == "W")
+			smer = "N";
+		else if(smer == "S")
+			smer = "W";
+		else
+			smer = "S";
 	}
 	
 	public void pomeranjeNapred(){
