@@ -120,3 +120,6 @@ RefactoringAction 1494614314674 TestPlanetExplorer.java RENAME test_okretanjaUsm
 RefactoringAction 1494614315720 TestPlanetExplorer.java RENAME test_pomeranjaUn()=>void test_pomeranjaU() METHOD
 RefactoringAction 1494614318249 TestPlanetExplorer.java RENAME test_pomeranjaU()=>void test_pomeranjaUnapred() METHOD
 EditAction 1494614341581 TestPlanetExplorer.java 1428 5 22 4
+UnitTestCaseAction 1494614348159 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614348161 TestPlanetExplorer.java OK
+EditAction 1494614371247 Pozicija.java 1517 12 13 0

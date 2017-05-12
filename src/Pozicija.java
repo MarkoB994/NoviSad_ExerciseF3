@@ -61,7 +61,14 @@ public class Pozicija {
 	}
 	
 	public void pomeranjeNazad(){
-		
+		if(smer == "N")
+			y--;
+		else if(smer == "W")
+			x++;
+		else if(smer == "S")
+			y++;
+		else
+			x--;
 	}
 	
 	
