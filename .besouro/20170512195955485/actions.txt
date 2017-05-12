@@ -126,3 +126,11 @@ EditAction 1494614371247 Pozicija.java 1517 12 13 0
 RefactoringAction 1494614386091 TestPlanetExplorer.java ADD void test_pomeranjaUnapred()/2 METHOD
 RefactoringAction 1494614397137 TestPlanetExplorer.java RENAME test_pomeranjaUnapred()/2=>void test_pomeranjaUnazad() METHOD
 EditAction 1494614412853 TestPlanetExplorer.java 1722 6 27 5
+UnitTestCaseAction 1494614418967 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614418969 TestPlanetExplorer.java OK
+RefactoringAction 1494614518793 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1494614526368 PlanetExplorer.java ADD int gridY FIELD
+RefactoringAction 1494614625299 PlanetExplorer.java ADD Pozicija poz FIELD
+RefactoringAction 1494614627830 PlanetExplorer.java RENAME poz=>Pozicija pozici FIELD
+RefactoringAction 1494614629355 PlanetExplorer.java RENAME pozici=>Pozicija pozicija FIELD
+EditAction 1494614648438 PlanetExplorer.java 1375 2 4 0
