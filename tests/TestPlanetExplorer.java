@@ -9,7 +9,7 @@ public class TestPlanetExplorer {
 		//Arrenge
 		Pozicija poz = new Pozicija(0,0,"N");
 		//Act
-		String izlaz = poz.toString();
+		String izlaz = poz.trenutnaPozicija();
 		//Assert
 		assertEquals("Provera startne pozicije", izlaz, "(0, 0, N)");
 	}
