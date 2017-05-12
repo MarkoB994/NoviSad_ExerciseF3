@@ -46,3 +46,22 @@ EditAction 1494613008970 Pozicija.java 482 6 8 0
 RefactoringAction 1494613028927 Pozicija.java ADD Pozicija() METHOD
 EditAction 1494613031303 Pozicija.java 514 7 8 0
 EditAction 1494613039752 TestPlanetExplorer.java 313 1 3 1
+UnitTestCaseAction 1494613045680 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494613045682 TestPlanetExplorer.java OK
+RefactoringAction 1494613094316 Pozicija.java ADD void po FIELD
+RefactoringAction 1494613095836 Pozicija.java RENAME po=>void pomeranje FIELD
+RefactoringAction 1494613097361 Pozicija.java RENAME pomeranje=>void pomeranjeNapre FIELD
+RefactoringAction 1494613100898 Pozicija.java RENAME pomeranjeNapre=>void pomeranje FIELD
+RefactoringAction 1494613109925 Pozicija.java REMOVE pomeranje FIELD
+RefactoringAction 1494613111445 Pozicija.java ADD void usmerenje FIELD
+RefactoringAction 1494613116999 Pozicija.java RENAME usmerenje=>void usmerenje() METHOD
+RefactoringAction 1494613128107 Pozicija.java RENAME usmerenje()=>void usmerenje(String) METHOD
+RefactoringAction 1494613174767 Pozicija.java RENAME usmerenje(String)=>String smer/2 FIELD
+RefactoringAction 1494613436984 Pozicija.java RENAME okretanje(String)=>String smer/2 FIELD
+RefactoringAction 1494613451082 Pozicija.java RENAME pomeranje(String)=>String smer/2 FIELD
+RefactoringAction 1494613454629 Pozicija.java RENAME PO(String)=>void okretanje(String) METHOD
+RefactoringAction 1494613461682 Pozicija.java RENAME okretanje(String)=>void pomeranje(String) METHOD
+RefactoringAction 1494613538542 PlanetExplorerException.java ADD PlanetExplorerException() METHOD
+RefactoringAction 1494613553636 PlanetExplorerException.java ADD PlanetExplorerException()/2 METHOD
+RefactoringAction 1494613557670 PlanetExplorerException.java RENAME PlanetExplorerException()/2=>PlanetExplorerException(String) METHOD
+EditAction 1494613566800 PlanetExplorerException.java 171 2 1 0
