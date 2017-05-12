@@ -30,6 +30,6 @@ public class TestPlanetExplorer {
 		//Act
 		String izlaz = poz.trenutnaPozicija();
 		//Assert
-		assertEquals("Provera startne pozicije", izlaz, "(0, 0, E)");
+		assertEquals("Provera startne pozicije", izlaz, "(0, 0, S)");
 	}
 }

@@ -99,3 +99,6 @@ RefactoringAction 1494614002483 TestPlanetExplorer.java RENAME test_okretanjaObr
 RefactoringAction 1494614003508 TestPlanetExplorer.java RENAME test_okretanjaObrnutoUs=>void test_okretanjaObrnuto FIELD
 RefactoringAction 1494614006534 TestPlanetExplorer.java RENAME test_okretanjaObrnuto=>void test_okretanjaObrnuto() METHOD
 EditAction 1494614111311 TestPlanetExplorer.java 790 3 10 2
+UnitTestCaseAction 1494614117076 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614117079 TestPlanetExplorer.java FAIL
+EditAction 1494614137844 TestPlanetExplorer.java 790 3 10 2
