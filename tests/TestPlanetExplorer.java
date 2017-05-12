@@ -13,4 +13,11 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals("Provera startne pozicije", izlaz, "(0, 0, N)");
 	}
+	
+	@Test(expected = PlanetExplorerException.class)
+	public void test_Pomeranja() throws PlanetExplorerException{
+		//Arrange
+		Pozicija poz = new Pozicija();
+		poz.pomeranje("Z");
+	}
 }

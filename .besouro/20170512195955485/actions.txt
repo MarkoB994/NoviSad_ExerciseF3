@@ -80,3 +80,11 @@ RefactoringAction 1494613635256 Pozicija.java RENAME uSmeruKazaljke=>void uSmeru
 RefactoringAction 1494613646379 Pozicija.java ADD void pomeranjeNapred() METHOD
 RefactoringAction 1494613668558 Pozicija.java ADD void pomeranjeNazad() METHOD
 EditAction 1494613670773 Pozicija.java 1033 12 9 0
+RefactoringAction 1494613728955 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1494613733981 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1494613738007 TestPlanetExplorer.java RENAME test_=>void test_promenePo FIELD
+RefactoringAction 1494613740030 TestPlanetExplorer.java RENAME test_promenePo=>void test_promene FIELD
+RefactoringAction 1494613744072 TestPlanetExplorer.java RENAME test_promene=>void test_Po FIELD
+RefactoringAction 1494613745611 TestPlanetExplorer.java RENAME test_Po=>void test_Pomeranja FIELD
+RefactoringAction 1494613746643 TestPlanetExplorer.java RENAME test_Pomeranja=>void test_Pomeranja() METHOD
+EditAction 1494613830372 TestPlanetExplorer.java 496 2 5 1
