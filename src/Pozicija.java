@@ -1,13 +1,13 @@
 
 public class Pozicija {
-	private int x;
-	private int y;
-	private String smer;
+	private int x = 0;
+	private int y = 0;
+	private String smer = "N";
 	
 	public Pozicija(int x, int y, String smer){
 		this.x = x;
 		this.y = y;
-		smer = "N";
+		this.smer = smer;
 	}
 	
 	public String trenutnaPozicija(){
