@@ -50,7 +50,14 @@ public class Pozicija {
 	}
 	
 	public void pomeranjeNapred(){
-		
+		if(smer == "N")
+			y++;
+		else if(smer == "W")
+			x--;
+		else if(smer == "S")
+			y--;
+		else
+			x++;
 	}
 	
 	public void pomeranjeNazad(){
