@@ -4,6 +4,7 @@ public class Pozicija {
 	private int y = 0;
 	private String smer = "N";
 	
+	
 	public Pozicija(){
 		
 	}

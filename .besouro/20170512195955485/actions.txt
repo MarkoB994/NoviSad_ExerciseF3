@@ -184,3 +184,13 @@ UnitTestSessionAction 1494615881283 TestPlanetExplorer.java FAIL
 EditAction 1494615958123 PlanetExplorer.java 2038 6 12 0
 EditAction 1494615973054 PlanetExplorer.java 2006 6 12 0
 EditAction 1494616186834 PlanetExplorer.java 2006 6 12 0
+UnitTestCaseAction 1494616193474 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616193476 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616284088 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616284091 TestPlanetExplorer.java FAIL
+RefactoringAction 1494616464641 Pozicija.java ADD int duzina FIELD
+RefactoringAction 1494616473759 Pozicija.java ADD int duzinaGrida FIELD
+RefactoringAction 1494616476845 Pozicija.java RENAME duzina=>int duzinaGrida/2 FIELD
+RefactoringAction 1494616486876 Pozicija.java REMOVE duzinaGrida FIELD
+RefactoringAction 1494616486878 Pozicija.java REMOVE duzinaGrida/2 FIELD
+EditAction 1494616487396 Pozicija.java 1520 12 13 0
