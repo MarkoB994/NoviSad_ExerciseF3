@@ -170,3 +170,11 @@ RefactoringAction 1494615364952 PlanetExplorer.java ADD int getGridX() METHOD
 RefactoringAction 1494615364953 PlanetExplorer.java ADD int getGridY() METHOD
 EditAction 1494615366423 PlanetExplorer.java 1738 5 9 0
 EditAction 1494615657866 PlanetExplorer.java 1919 5 11 0
+CompilationAction 1494615661158 PlanetExplorer.java
+CompilationAction 1494615667791 PlanetExplorer.java
+RefactoringAction 1494615701938 TestPlanetExplorer.java ADD void test_prosledjivanj FIELD
+RefactoringAction 1494615706987 TestPlanetExplorer.java RENAME test_prosledjivanj=>void test_prosledjivanjaReciNared FIELD
+RefactoringAction 1494615708024 TestPlanetExplorer.java RENAME test_prosledjivanjaReciNared=>void test_prosledjivanjaReciNaredbe FIELD
+RefactoringAction 1494615711064 TestPlanetExplorer.java RENAME test_prosledjivanjaReciNaredbe=>void test_prosledjivanjaReciNaredbe() METHOD
+RefactoringAction 1494615830124 PlanetExplorer.java ADD Pozicija getPozicija() METHOD
+EditAction 1494615832334 PlanetExplorer.java 2006 6 12 0
